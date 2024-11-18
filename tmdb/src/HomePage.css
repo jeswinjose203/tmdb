@@ -1,0 +1,27 @@
+.App {
+    padding: 20px;
+  }
+  
+  .flex-container {
+    display: flex;            /* Use Flexbox */
+    flex-wrap: wrap;         /* Allow items to wrap to the next line */
+    gap: 16px;               /* Space between cards */
+  }
+  
+  .flex-container > .ant-card {
+    flex: 0 0 30%;         /* Grow and shrink, with a base width of 200px */
+    box-sizing: border-box;  /* Include padding/border in width */
+  }
+  
+  
+  .pagination {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (optional) */
+    margin: 20px 0; /* Add some margin for spacing */
+  }
+  
+  .pagination button {
+    margin: 0 10px; /* Add some space between buttons */
+  }
+  
